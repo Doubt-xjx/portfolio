@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品集 - Personal Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="https://i.postimg.cc/JzBWVhW4/my-avatar.png" alt="avatar" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="徐金鑫">徐金鑫</h1>
+                    <p class="title">UI设计</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>显示联系方式</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">邮箱</p>
+                            <a href="mailto:1062964910@qq.com" class="contact-link">1062964910@qq.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">联系方式</p>
+                            <a href="tel:18795973776" class="contact-link">18795973776</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">出生年月</p>
+                            <time datetime="1996">1996·2</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">所在地</p>
+                            <address>江苏省·南京市</address>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><a href="index.html" class="navbar-link">关于我</a></li>
+                    <li class="navbar-item"><a href="resume.html" class="navbar-link">个人简历</a></li>
+                    <li class="navbar-item"><a href="portfolio.html" class="navbar-link active">作品集</a></li>
+                </ul>
+            </nav>
+
+            <article class="portfolio active">
+                <header>
+                    <h2 class="h2 article-title">作品集</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>全部</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>网页设计</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>移动端设计</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>三维设计</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>其他</button>
+                        </li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-select-value>选择类别</div>
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item">
+                                <button data-select-item>全部</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>网页设计</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>移动端设计</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>三维设计</button>  
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>其他设计</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="网页设计">
+                            <a href="project-detail.html?id=phjgpt">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/web_phjgpt.png" alt="普货监管平台" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">普货监管平台</h3>
+                                <p class="project-category">网页设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="网页设计">
+                            <a href="project-detail.html?id=ddjy">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/web_ddjy.png" alt="迪迪救援pc端" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">迪迪救援pc端</h3>
+                                <p class="project-category">网页设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="网页设计">
+                            <a href="project-detail.html?id=ygbxzzfwpt">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/web_ygbxzzfwpt.png" alt="阳光保险增值服务平台" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">阳光保险增值服务平台</h3>
+                                <p class="project-category">网页设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="网页设计">
+                            <a href="project-detail.html?id=ykglptcjyypt">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/web_ykglptcjyypt.png" alt="云控管理平台场景应用平台" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">云控管理平台场景应用平台</h3>
+                                <p class="project-category">网页设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="网页设计">
+                            <a href="project-detail.html?id=ythlpyyjgksh">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/web_ythlpyyjgksh.png" alt="一体化理赔运营监控可视化" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">一体化理赔运营监控可视化</h3>
+                                <p class="project-category">网页设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="网页设计">
+                            <a href="project-detail.html?id=qcfwzxszyyclglpt">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/web-qcfwzxszyyclglpt.png" alt="汽车服务中心数字运营管理平台" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">汽车服务中心数字运营管理平台</h3>
+                                <p class="project-category">网页设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="网页设计">
+                            <a href="project-detail.html?id=webxlt">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/web-xlt.png" alt="晓邻通管理后台" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">晓邻通管理后台</h3>
+                                <p class="project-category">网页设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="网页设计">
+                            <a href="project-detail.html?id=ygbjfgsrcjxhglxt">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/web-ygbjfgsrcjxhglxt.png" alt="阳光北京分公司人车精细化管理系统" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">阳光北京分公司人车精细化管理系统</h3>
+                                <p class="project-category">网页设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="移动端设计">
+                            <a href="project-detail.html?id=ddjyjs">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/app_ddjyjs.png" alt="迪迪救援技师APP" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">迪迪救援技师APP（V4.0）</h3>
+                                <p class="project-category">移动端设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="移动端设计">
+                            <a href="project-detail.html?id=appxlt">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/app_xlt.png" alt="晓邻通" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">晓邻通</h3>
+                                <p class="project-category">移动端设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="移动端设计">
+                            <a href="project-detail.html?id=ddcf">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/app_ddcf.png" alt="迪迪车服" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">迪迪车服</h3>
+                                <p class="project-category">移动端设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="移动端设计">
+                            <a href="project-detail.html?id=ddsgjy">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/app_ddsgjy.png" alt="迪迪事故救援" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">迪迪事故救援</h3>
+                                <p class="project-category">移动端设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="移动端设计">
+                            <a href="project-detail.html?id=hycyzj">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/app_hycyzj.png" alt="货运车友之家" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">货运车友之家</h3>
+                                <p class="project-category">移动端设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="移动端设计">
+                            <a href="project-detail.html?id=ybjy">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/app_ybjy.png" alt="亿保救援" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">亿保救援</h3>
+                                <p class="project-category">移动端设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="移动端设计">
+                            <a href="project-detail.html?id=ybqyyc">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/app_ybqyyc.png" alt="亿保企业用车" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">亿保企业用车</h3>
+                                <p class="project-category">移动端设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="移动端设计">
+                            <a href="project-detail.html?id=ybxptgc">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/app_ybxptgc.png" alt="亿保新平台管车小程序" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">亿保新平台管车小程序</h3>
+                                <p class="project-category">移动端设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="移动端设计">
+                            <a href="project-detail.html?id=ycgclglxt">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/app_ycgclglxt.png" alt="亿车管车辆管理系统" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">亿车管车辆管理系统</h3>
+                                <p class="project-category">移动端设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="移动端设计">
+                            <a href="project-detail.html?id=ykdywglpt">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/app_ykdywglpt.png" alt="亿科达运维管理平台" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">亿科达运维管理平台</h3>
+                                <p class="project-category">移动端设计</p>
+                            </a>
+                            </li>
+
+                        <li class="project-item active" data-filter-item data-category="移动端设计">
+                            <a href="project-detail.html?id=zjclaqjc">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/app_zjclaqjc.png" alt="紫金车辆安全检测" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">紫金车辆安全检测</h3>
+                                <p class="project-category">移动端设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="移动端设计">
+                            <a href="project-detail.html?id=fwjly">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/app-fwjly.png" alt="服务记录仪" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">服务记录仪</h3>
+                                <p class="project-category">移动端设计</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="移动端设计">
+                            <a href="project-detail.html?id=ysfbddjy">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/app-ysfbddjy.png" alt="云闪付版迪迪救援" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">云闪付版迪迪救援</h3>
+                                <p class="project-category">移动端设计</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html> 
