@@ -13,6 +13,62 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 直接在这里定义项目配置
     const projectConfig = {
+        "ykdhtglxt": {
+            "title": "亿科达合同管理系统",
+            "description": "合同全生命周期管理系统旨在为企业提供一站式的合同管理解决方案，覆盖合同的创建、审核、签订、执行、开票、回款等全过程。通过数字化、智能化的管理，确保合同信息的准确性、可追溯性和合规性，提高企业合同管理效率，减少人为错误和风险，增强企业的运营透明度。",
+            "category": "网页设计",
+            "images": [
+                {
+                    "src": "https://i.postimg.cc/0QVs0YVj/1-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/fbjZJnXx/2-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/DZvhGjdR/3-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/D0mKjSNg/4-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/L40SqVq0/5-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/yx5CwV4z/6-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/Gh8CvsG3/7-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/ncyt2cG4/8-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/XY96zSsT/9-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/25mNpcJ3/10-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/ZR5kn9JS/11-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/Dzgk7Qk6/12-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/FRWML9KJ/13-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/Kj1d7dKp/14-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/jq9Vqd9p/15-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/fy118Bmz/16-1x.png"
+                }       
+            ]
+        },
+
         "phjgpt": {
             "title": "普货监管平台",
             "description": "监管工作台和企业工作台的设计，为监管部门和企业提供了全面的运输监管和管理工具。实时的车辆监控、待处理报警概况、企业车辆信息、驾驶员概况等功能，帮助监管人员迅速响应和处理问题。企业工作台则通过报警统计、车辆位置监控、报警高峰时间统计等功能，帮助企业管理层深入了解运输状况，优化资源调配。",
@@ -1071,6 +1127,107 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     "src": "https://i.postimg.cc/L8ybxGk4/17-2x.png"
                 }
+
+            ]
+        },
+        "clcj": {
+            "title": "车辆场景",
+            "description": "这是迪迪救援项目中使用的车辆多场景设计，通过真实的场景模拟和细致的设计，为用户提供了更加直观、生动的体验。这一设计不仅提升了用户的使用感受，还为项目的整体形象和品质增添了更多亮点。",
+            "category": "三维设计",
+            "images": [
+                {
+                    "src": "https://i.postimg.cc/qvMTtCm7/1-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/CL40L4st/2-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/L6SRpWLL/3-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/Z57h6Kgx/4-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/HLr1z11D/5-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/7Lj8QtqC/6-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/gjW9GwXm/7-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/LXfKdksx/8-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/LXj7QHy7/9-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/yNMtTJTc/10-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/5tYDv58f/11-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/FFy5Dx8R/12-1x.png"
+                }
+
+            ]
+        },
+        "ppt": {
+            "title": "PPT排版设计",
+            "description": "这是一套公司PPT排版设计，通过精心的布局和配色，为内容提供了更加清晰、美观的展示形式。这一设计不仅提升了PPT的整体质感，还为企业的形象和品牌传播增添了更多亮点。为公司的业务推广和宣传提供了更加有力的支持。",
+            "category": "其他",
+            "images": [
+                {
+                    "src": "https://i.postimg.cc/K8VSjcRk/1-1-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/sg1C3GDC/1-2-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/m2mGxy4S/1-3-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/zXz1PPsB/1-4-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/4dkDv8vX/1-5-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/PxWBSmKY/1-6-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/9f73737x/1-7-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/C5w9Xz6t/1-8-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/QCSv3h2M/1-9-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/SQGB8fnp/1-10-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/655Dh4Z4/1-11-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/65jFb6Vj/1-12-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/52XThcnx/1-13-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/SxH3qZvc/1-14-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/rpWbpSB3/1-15-1x.png"
+                },
+                {
+                    "src": "https://i.postimg.cc/76kRJ5D6/1-16-1x.png"
+                }
+
 
             ]
         }
